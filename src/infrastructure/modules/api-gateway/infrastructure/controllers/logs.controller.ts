@@ -1,7 +1,7 @@
 import { Controller, Get, Inject } from '@nestjs/common';
-import { LogsService } from '../connections-microservices/logs/logs.service';
+import { LogsService } from '../connections-microservices/logger/logs.service';
 
-@Controller('logs')
+@Controller('logger')
 export class LogsController {
   @Inject()
   private readonly logsService: LogsService;

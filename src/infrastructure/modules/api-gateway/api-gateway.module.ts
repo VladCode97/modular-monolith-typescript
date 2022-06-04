@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { LogsService } from './infrastructure/connections-microservices/logs/logs.service';
+import { LogsService } from './infrastructure/connections-microservices/logger/logs.service';
 import { ClientsModule, Transport } from '@nestjs/microservices';
 import {
   LOGS_SERVICE_SYMBOL,
